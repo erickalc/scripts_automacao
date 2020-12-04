@@ -38,7 +38,4 @@ Verificar página de login com sucesso
 
 Mover controle deslizante 8 vezes
     Wait Until Element Is Visible    xpath://input[@type='range']
-    # Press Keys                       xpath://input[@type='range']        ARROW_RIGHT
-    Press Keys                       xpath://input[@type='range']        ARROW_DOWN
-    Press Keys                       xpath://input[@type='range']        ARROW_UP
-    Press Keys                       xpath://input[@type='range']        ARROW_UP
+    Drag And Drop By Offset          xpath://input[@type='range']        30     0
